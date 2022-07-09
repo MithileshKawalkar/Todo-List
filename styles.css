@@ -1,0 +1,148 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body{
+    /* background-color: white; */
+    color: black;
+    text-rendering: optimizeLegibility;
+    font-size: 16px;
+    font-family: 'Pacifico', cursive;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+body{
+    /* background-image:linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,1)),url("https://media.istockphoto.com/photos/to-do-list-picture-id1293850746?b=1&k=20&m=1293850746&s=170667a&w=0&h=-U81sV0dSXTFfGnyMakG5PMyiGTHaPIqFvLv_1zGN2k="); */
+    background-color: grey;
+    background-size:cover;
+    text-align: center;
+    /* height: 100vh;
+    width: 100vw; */
+    overflow-x: hidden;
+    background-position: center;
+}
+
+
+.container{
+    width: 80%;
+    /* height: 80vh; */
+    padding-top: 50px;
+
+    margin: 50px auto 50px auto;
+    margin-bottom: 500px;
+}
+
+#heading{
+    margin-top: 50px;
+    font-size: 200%;
+    margin-bottom: 50px;
+}
+
+#input-box{
+    width: 50%;
+    float: left;
+    padding: 0;
+}
+
+#input{
+    vertical-align: middle;
+    margin:auto 0px auto 0px;
+    margin-right: 5px;
+    font-size: 12px;
+    font-size: max(12px, 1em);
+    font-family: inherit;
+    padding: 0.25em 0.5em;
+    background-color: #fff;
+    border: 2px solid var(--input-border);
+    border-radius: 4px;
+  }
+
+  #plus{
+    border: black 2px solid;
+
+    margin:0;
+  }
+.toDoContainer{
+    width: 50%;
+    float: right;
+    background-color: whitesmoke;
+    border-radius: 15px;
+    padding: 25px;
+}
+
+#list{
+    list-style: none;
+
+}
+
+.del-btn{
+    background: none;
+    float: right;
+}
+
+hr{
+    margin: 5px auto 5px auto;
+    width: 80%;
+    text-align: center;
+}
+
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.footer{
+    background-color: 	#303030;
+    overflow:hidden;
+    padding: 60px 30px;
+    text-align: center;
+    color:#888888;
+}
+.footer-nav{
+    margin-left:10px;
+    display: block;
+    float: left;
+}
+.social-media{
+   font-size: 140%;
+   position: absolute;
+   right: 50px;
+}
+.copyright{
+    text-align: center ;
+    padding-top: 20px;
+}
+.copyright p{
+    margin-top: 50px;
+    line-height: 1.5;
+}
+footer ul li{
+   display: inline-block;
+   padding: 10px 15px;
+}
+footer a{
+   color: #888888;
+   text-decoration: none;
+}
+.footer-nav a:hover{
+   color: white;
+   transition: ease 500ms;
+}
+.social-media li:hover{
+   transition: ease 500ms;
+}
+.fa-facebook-f:hover{
+   color: blue;
+}
+.fa-twitter:hover{
+   color: rgb(23, 103, 252);
+}
+.fa-google-plus-g:hover{
+   color: #db4a39;
+}
+.fa-instagram:hover{
+   color: #8a3ab9;
+}

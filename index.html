@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>To Do List</title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="//code.jquery.com/ui/1.13.1/themes/base/jquery-ui.css" />
+        <link rel="stylesheet" href="styles.css" />
+        
+        <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+        <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+        <script>
+            $(function () {
+                $("#list").sortable();
+            });
+        </script>
+    </head>
+    <body>
+        <div id="heading">TODO LIST</div>
+
+        <div class="container">     
+            <div id="input-box">
+                <input id="input" type="text" placeholder="Add Todo" />
+                <a id="plus" class="fa-solid fa-plus"></a>
+            </div>
+            <div class="toDoContainer">
+                <h3>My Tasks</h3><hr>
+                <ul id="list"></ul>
+            </div>
+        </div>
+
+        <div class="clearfix"></div>
+
+        <footer class="footer">
+            <div class="row">
+               <div class="row">
+                <div class="col span_1_of_2">
+                    <ul class="social-media">
+                        <li><a href="https://www.facebook.com"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="https://www.twitter.com"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="https://www.google.com"><i class="fab fa-google-plus-g"></a></i></li>
+                        <li><a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a></li>
+                    </ul>
+                </div> 
+            </div>
+            <div class="row">
+                <div class="copyright">
+                    <p>Design Copyright <i class="far fa-copyright"></i> MK 2022 <br>All rights reserved.</p>
+                </div>
+            </div>
+        </footer>
+
+        <script src="script.js"></script>
+    </body>
+</html>
