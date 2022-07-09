@@ -119,30 +119,27 @@ hr{
     margin-top: 50px;
     line-height: 1.5;
 }
-footer ul li{
-   display: inline-block;
-   padding: 10px 15px;
-}
-footer a{
-   color: #888888;
-   text-decoration: none;
-}
-.footer-nav a:hover{
-   color: white;
-   transition: ease 500ms;
-}
-.social-media li:hover{
-   transition: ease 500ms;
-}
-.fa-facebook-f:hover{
-   color: blue;
-}
-.fa-twitter:hover{
-   color: rgb(23, 103, 252);
-}
-.fa-google-plus-g:hover{
-   color: #db4a39;
-}
-.fa-instagram:hover{
-   color: #8a3ab9;
+
+/* Media Query */
+@media only screen and (max-width:750px) 
+{
+    #input-box{
+        width: 100%;
+        float: none;
+        display: block;
+        padding: 0;
+        margin-bottom: 50px;
+        /* background-color: yellow; */
+    }
+
+    .toDoContainer{
+        width:100%;
+        float: none;
+        display: block;
+    }
+
+    .container{
+        margin-bottom: 50px;
+
+    }
 }
